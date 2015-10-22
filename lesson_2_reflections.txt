@@ -1,18 +1,45 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+    When I initialize a repository, it creates an empty hidden folder called
+    'git'. You need to do this so you have a place to store your commits. I'm
+    not particularly sure what this question means.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+    The staging area is different because it has no actual directory. It allows
+    you to choose exactly what will be added to your commit, and easily view
+    those files separate from others in your working directory with the status
+    command.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    Using the staging area, you can check which files have been modified to
+    remind you when you may want to make commits.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches could help when you are going to make multiple versions of your app
+    and want to maintain all of them without each one intertwining.
+
 How do the diagrams help you visualize the branch structure?
+    They help me visualize the branch structure by separating and organizing
+    every commit by it's proper parent, then displaying it all at once.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    When merging two branches together, you take all of the commits and smush
+    them inside of one big child branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    Manual merging comes in handy when you are collaborating on a project and
+    everyone isn't necessarily on the same page, or even when you forget to keep
+    things consistent on projects you're working on by yourself. It allows you
+    to use common sense not found within a computer, to efficiently optimize
+    coding. Automatic merging is great for the more simple tasks, because it
+    saves so much time versus doing everything manually.
